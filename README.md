@@ -8,7 +8,7 @@
 
 _Assignment Instructions_
 
-**Part 1**
+**Part 1: Big Query Python Client**
 * Using Python, create a BigQuery client.
 
 * In BigQuery (using the console or the command line), in the project that the client connects to, make a new dataset called 'plants'.
@@ -22,12 +22,20 @@ _Assignment Instructions_
 * Using Python, use .list_tables(), list the tables in the plants dataset, and confirm your new flower_shop table is there.
 
   
-**Part 2**
+**Part 2: Looker Studio**
 * In BigQuery, select a public dataset that interests you, and copy it to your project.
 
 * Using Looker Studio, connect to the dataset and use it to make a visual.
 
 * Add the visual from Looker Studio to your README. In the README, include a short description of the dataset, and what the visual is showing.
+
+**Argentina Real Estate Heat Map (January 2018)**
+
+The dataset I used to make the following heatmap can be found under Google Big Query's public data set collection as `properati-data-public.properties_ar`. The table I selected from this dataset contains real estate prices on listings from January 2018. As you can see, the most expensive listings are in Buenos Aires and in its surrounding beach towns of Pinamar and Mar del Plata. The larger green centers seen include secondary cities like Cordoba, Salta, Mendoza, and San Carlos de Bariloche. 
+
+![Argentina](./img/argentina-map.resized.png) 
+
+
 
 
 ## Setup/Installation Requirements
